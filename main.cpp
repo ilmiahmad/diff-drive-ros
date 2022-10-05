@@ -1,16 +1,15 @@
 #include <iostream>
 
-int data;
+
 int main()
 {
-    data = 10;
-    std::cout << data << std::endl;
-    data = 20;
-    std::cout << data << std::endl;
-    data = 30;
-    std::cout << data << std::endl;
-    data = 40;
-    std::cout << data << std::endl;
+    std::cout << "Memulai Loop" << std::endl;
+
+    for(int nilai = 0; nilai < 3; nilai++)
+    {
+        std::cout << nilai << std::endl;
+    }
+    std::cout << "Selesai dan Keluar dari Loop" << std::endl;
 
     return 0;
 }
